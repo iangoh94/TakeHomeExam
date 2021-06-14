@@ -35,6 +35,11 @@ interface IDataJob {
 	salary_from: number;
 	salary_to: number;
 	salary_period: TSalaryPeriod;
+	logo_url: string;
+	company_name: string;
+	employ_fulltime: boolean;
+	employ_contract: boolean;
+	employ_parttime: boolean;
 }
 
 // ==========================

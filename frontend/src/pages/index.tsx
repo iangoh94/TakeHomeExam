@@ -48,8 +48,8 @@ const IndexPage: React.FC = () => {
 			)}
 
 			{jobs.map(job => (
-				<Col key={job.job_id} span={6}>
-					<JobCard job={job} />
+				<Col key={job.job_id} span={6} xs={20} sm={16} md={12} lg={8} xl={8}>
+					<JobCard job={job} loading={loading} />
 				</Col>
 			))}
 		</Row>
